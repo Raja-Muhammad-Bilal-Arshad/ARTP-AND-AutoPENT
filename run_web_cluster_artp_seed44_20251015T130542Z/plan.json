@@ -1,0 +1,18 @@
+[
+  {
+    "step_id": 1,
+    "action": "crawl",
+    "target": {
+      "host": "10.0.0.2",
+      "url": "/"
+    },
+    "params": {
+      "depth": 2
+    },
+    "meta": {
+      "confidence": 0.9,
+      "impact": "unknown",
+      "timestamp": "2025-10-15T13:05:42Z"
+    }
+  }
+]

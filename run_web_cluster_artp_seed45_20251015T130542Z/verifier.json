@@ -1,0 +1,11 @@
+{
+  "verifier_checks": [
+    {
+      "step_id": 1,
+      "status": "ok",
+      "issues": []
+    }
+  ],
+  "final_decision": "approved",
+  "timestamp": "2025-10-15T13:05:42Z"
+}

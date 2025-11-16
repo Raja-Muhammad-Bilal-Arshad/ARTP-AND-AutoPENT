@@ -1,0 +1,177 @@
+[
+  {
+    "step_id": 1,
+    "action": "crawl",
+    "target": {
+      "host": "10.0.0.2",
+      "url": "/"
+    },
+    "params": {
+      "depth": 2
+    },
+    "meta": {
+      "confidence": 0.9,
+      "impact": "unknown",
+      "timestamp": "2025-10-15T11:34:46Z"
+    }
+  },
+  {
+    "step_id": 2,
+    "action": "enumerate",
+    "target": {
+      "host": "10.0.0.2",
+      "url": "/"
+    },
+    "params": {
+      "checks": [
+        "forms",
+        "dirs"
+      ]
+    },
+    "meta": {
+      "confidence": 0.8,
+      "impact": "unknown",
+      "timestamp": "2025-10-15T11:34:46Z"
+    }
+  },
+  {
+    "step_id": 3,
+    "action": "crawl",
+    "target": {
+      "host": "10.0.0.2",
+      "url": "/login"
+    },
+    "params": {
+      "depth": 2
+    },
+    "meta": {
+      "confidence": 0.9,
+      "impact": "unknown",
+      "timestamp": "2025-10-15T11:34:46Z"
+    }
+  },
+  {
+    "step_id": 4,
+    "action": "enumerate",
+    "target": {
+      "host": "10.0.0.2",
+      "url": "/login"
+    },
+    "params": {
+      "checks": [
+        "forms",
+        "dirs"
+      ]
+    },
+    "meta": {
+      "confidence": 0.8,
+      "impact": "unknown",
+      "timestamp": "2025-10-15T11:34:46Z"
+    }
+  },
+  {
+    "step_id": 5,
+    "action": "attempt_exploit_simulated",
+    "target": {
+      "host": "10.0.0.2",
+      "endpoint": "/login"
+    },
+    "params": {
+      "exploit_sim_id": "sim-default-001"
+    },
+    "meta": {
+      "confidence": 0.6,
+      "impact": "medium",
+      "timestamp": "2025-10-15T11:34:46Z"
+    }
+  },
+  {
+    "step_id": 6,
+    "action": "crawl",
+    "target": {
+      "host": "10.0.0.3",
+      "url": "/admin"
+    },
+    "params": {
+      "depth": 2
+    },
+    "meta": {
+      "confidence": 0.9,
+      "impact": "unknown",
+      "timestamp": "2025-10-15T11:34:46Z"
+    }
+  },
+  {
+    "step_id": 7,
+    "action": "enumerate",
+    "target": {
+      "host": "10.0.0.3",
+      "url": "/admin"
+    },
+    "params": {
+      "checks": [
+        "forms",
+        "dirs"
+      ]
+    },
+    "meta": {
+      "confidence": 0.8,
+      "impact": "unknown",
+      "timestamp": "2025-10-15T11:34:46Z"
+    }
+  },
+  {
+    "step_id": 8,
+    "action": "attempt_exploit_simulated",
+    "target": {
+      "host": "10.0.0.3",
+      "endpoint": "/admin"
+    },
+    "params": {
+      "exploit_sim_id": "sim-default-001"
+    },
+    "meta": {
+      "confidence": 0.6,
+      "impact": "medium",
+      "timestamp": "2025-10-15T11:34:46Z"
+    }
+  },
+  {
+    "step_id": 9,
+    "action": "enumerate",
+    "target": {
+      "host": "10.0.0.3",
+      "service": "ldap"
+    },
+    "params": {
+      "checks": [
+        "version",
+        "users"
+      ]
+    },
+    "meta": {
+      "confidence": 0.7,
+      "impact": "unknown",
+      "timestamp": "2025-10-15T11:34:46Z"
+    }
+  },
+  {
+    "step_id": 10,
+    "action": "enumerate",
+    "target": {
+      "host": "10.0.0.3",
+      "service": "msrpc"
+    },
+    "params": {
+      "checks": [
+        "version",
+        "users"
+      ]
+    },
+    "meta": {
+      "confidence": 0.7,
+      "impact": "unknown",
+      "timestamp": "2025-10-15T11:34:46Z"
+    }
+  }
+]

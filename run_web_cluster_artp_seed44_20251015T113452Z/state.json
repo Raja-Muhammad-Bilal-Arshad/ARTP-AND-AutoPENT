@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "sandbox": true,
+    "experiment_id": "artp-demo",
+    "timestamp": "2025-10-15T11:34:52Z",
+    "seed": 44
+  },
+  "hosts": [
+    {
+      "host": "10.0.0.2",
+      "ip": "10.0.0.2",
+      "os": "linux",
+      "tags": [
+        "web"
+      ]
+    },
+    {
+      "host": "10.0.0.3",
+      "ip": "10.0.0.3",
+      "os": "windows",
+      "tags": [
+        "dc",
+        "ldap"
+      ]
+    }
+  ],
+  "endpoints": [
+    {
+      "host": "10.0.0.2",
+      "path": "/",
+      "method": "GET",
+      "title": "Landing"
+    },
+    {
+      "host": "10.0.0.2",
+      "path": "/login",
+      "method": "POST",
+      "title": "Login"
+    },
+    {
+      "host": "10.0.0.3",
+      "path": "/admin",
+      "method": "GET",
+      "title": "Admin"
+    }
+  ],
+  "services": [
+    {
+      "host": "10.0.0.3",
+      "name": "ldap",
+      "port": 389,
+      "protocol": "tcp"
+    },
+    {
+      "host": "10.0.0.3",
+      "name": "msrpc",
+      "port": 135,
+      "protocol": "tcp"
+    }
+  ]
+}
