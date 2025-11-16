@@ -1,0 +1,60 @@
+{
+  "verifier_checks": [
+    {
+      "step_id": 1,
+      "status": "ok",
+      "issues": []
+    },
+    {
+      "step_id": 2,
+      "status": "ok",
+      "issues": []
+    },
+    {
+      "step_id": 3,
+      "status": "ok",
+      "issues": []
+    },
+    {
+      "step_id": 4,
+      "status": "ok",
+      "issues": []
+    },
+    {
+      "step_id": 5,
+      "status": "flagged",
+      "issues": [
+        "high_impact"
+      ]
+    },
+    {
+      "step_id": 6,
+      "status": "ok",
+      "issues": []
+    },
+    {
+      "step_id": 7,
+      "status": "ok",
+      "issues": []
+    },
+    {
+      "step_id": 8,
+      "status": "flagged",
+      "issues": [
+        "high_impact"
+      ]
+    },
+    {
+      "step_id": 9,
+      "status": "ok",
+      "issues": []
+    },
+    {
+      "step_id": 10,
+      "status": "ok",
+      "issues": []
+    }
+  ],
+  "final_decision": "hold_for_human",
+  "timestamp": "2025-10-22T10:46:43Z"
+}

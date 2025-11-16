@@ -1,0 +1,10 @@
+{
+  "run_id": "run_web_cluster_artp_seed42_20251022T125621Z",
+  "agent": "artp",
+  "target": "web_cluster",
+  "seed": 42,
+  "start_time_utc": "2025-10-22T12:56:21Z",
+  "end_time_utc": "2025-10-22T12:56:21Z",
+  "duration_seconds": 0,
+  "duration_hms": "00:00:00"
+}

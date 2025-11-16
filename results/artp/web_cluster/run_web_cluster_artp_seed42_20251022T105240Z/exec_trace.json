@@ -1,0 +1,72 @@
+[
+  {
+    "step_id": 1,
+    "action": "crawl",
+    "confidence": 0.9,
+    "timestamp": "2025-10-22T10:52:41Z",
+    "result": "info_gathered"
+  },
+  {
+    "step_id": 2,
+    "action": "enumerate",
+    "confidence": 0.8,
+    "timestamp": "2025-10-22T10:52:41Z",
+    "result": "info_gathered"
+  },
+  {
+    "step_id": 3,
+    "action": "crawl",
+    "confidence": 0.9,
+    "timestamp": "2025-10-22T10:52:41Z",
+    "result": "info_gathered"
+  },
+  {
+    "step_id": 4,
+    "action": "enumerate",
+    "confidence": 0.8,
+    "timestamp": "2025-10-22T10:52:41Z",
+    "result": "info_gathered"
+  },
+  {
+    "step_id": 5,
+    "action": "attempt_exploit_simulated",
+    "confidence": 0.6,
+    "timestamp": "2025-10-22T10:52:41Z",
+    "result": "failure"
+  },
+  {
+    "step_id": 6,
+    "action": "crawl",
+    "confidence": 0.9,
+    "timestamp": "2025-10-22T10:52:41Z",
+    "result": "info_gathered"
+  },
+  {
+    "step_id": 7,
+    "action": "enumerate",
+    "confidence": 0.8,
+    "timestamp": "2025-10-22T10:52:41Z",
+    "result": "info_gathered"
+  },
+  {
+    "step_id": 8,
+    "action": "attempt_exploit_simulated",
+    "confidence": 0.6,
+    "timestamp": "2025-10-22T10:52:41Z",
+    "result": "failure"
+  },
+  {
+    "step_id": 9,
+    "action": "enumerate",
+    "confidence": 0.7,
+    "timestamp": "2025-10-22T10:52:41Z",
+    "result": "info_gathered"
+  },
+  {
+    "step_id": 10,
+    "action": "enumerate",
+    "confidence": 0.7,
+    "timestamp": "2025-10-22T10:52:41Z",
+    "result": "info_gathered"
+  }
+]
