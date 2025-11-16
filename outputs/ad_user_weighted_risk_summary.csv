@@ -1,0 +1,17 @@
+From,To,Path,TotalRisk,AvgRisk
+CN=Adam Barr,Alan Steiner,CN=Adam Barr → Alan Steiner,8,8.0
+CN=Adam Barr,Diane Tibbot,CN=Adam Barr → Diane Tibbot,8,8.0
+CN=Adam Barr,Christine Koch,CN=Adam Barr → Christine Koch,8,8.0
+CN=Dan Jump,Frank Martinez,CN=Dan Jump → Frank Martinez,8,8.0
+CN=Frank Martinez,Jeff Hay,CN=Frank Martinez → Jeff Hay,8,8.0
+CN=Jeff Hay,Christa Geller,CN=Jeff Hay → Christa Geller,8,8.0
+CN=Dan Park,Jack Creasey,CN=Dan Park → Jack Creasey,8,8.0
+CN=Christa Geller,Anna Lidman,CN=Christa Geller → Anna Lidman,8,8.0
+CN=Kelly Weadock,Arturo Lopez,CN=Kelly Weadock → Arturo Lopez,8,8.0
+CN=Molly Clark,Diane Prescott,CN=Molly Clark → Diane Prescott,8,8.0
+CN=Adam Barr,David Zazzo,CN=Adam Barr → David Zazzo,8,8.0
+CN=Adam Barr,Cassie Hicks,CN=Adam Barr → Cassie Hicks,8,8.0
+CN=Molly Clark,Sean Chai,CN=Molly Clark → Sean Chai,8,8.0
+CN=Dan Jump,Sanjay Shah,CN=Dan Jump → Sanjay Shah,8,8.0
+CN=Dan Jump,Toni Poe,CN=Dan Jump → Toni Poe,8,8.0
+CN=Dan Jump,Jim Daly,CN=Dan Jump → Jim Daly,8,8.0

@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  juice:
+    image: bkimminich/juice-shop:latest
+    container_name: juice
+    ports:
+      - "3000:3000"
+    networks:
+      - webnet
+
+  web2:
+    image: httpd:latest
+    container_name: web2
+    ports:
+      - "8081:80"
+    networks:
+      - webnet
+
+networks:
+  webnet:
+

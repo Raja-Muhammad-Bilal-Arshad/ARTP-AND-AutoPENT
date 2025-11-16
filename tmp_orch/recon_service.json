@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "collected_at": "2025-10-28T06:57:27Z",
+    "sandbox": true
+  },
+  "host": "127.0.0.1",
+  "port": 8081,
+  "tcp_banner": "HTTP/1.1 200 OK\r\nDate: Tue, 28 Oct 2025 06:57:27 GMT\r\nServer: Apache/2.4.65 (Unix)\r\nLast-Modified: Mon, 11 Jun 2007 18:53:14 GMT\r\nETag: \"2d-432a5e4a73a80\"\r\nAccept-Ranges: bytes\r\nContent-Length: 45\r\nConnection: close\r\nContent-Type: text/html\r\n\r\n",
+  "http": {
+    "status_code": 200,
+    "headers": {
+      "Date": "Tue, 28 Oct 2025 06:57:27 GMT",
+      "Server": "Apache/2.4.65 (Unix)",
+      "Last-Modified": "Mon, 11 Jun 2007 18:53:14 GMT",
+      "ETag": "\"2d-432a5e4a73a80\"",
+      "Accept-Ranges": "bytes",
+      "Content-Length": "45",
+      "Keep-Alive": "timeout=5, max=100",
+      "Connection": "Keep-Alive",
+      "Content-Type": "text/html"
+    }
+  }
+}

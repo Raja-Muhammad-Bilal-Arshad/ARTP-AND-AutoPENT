@@ -1,0 +1,35 @@
+{
+"meta": {
+"sandbox": true,
+"target": "web_cluster",
+"description": "Sanitized example state for web_cluster template",
+"timestamp": "2025-10-22T00:00:00Z",
+"seed": 42
+},
+"hosts": [
+{"host": "10.0.0.2", "ip": "10.0.0.2", "os": "linux", "tags": ["web"]},
+{"host": "10.0.0.3", "ip": "10.0.0.3", "os": "linux", "tags": ["web"]}
+],
+"services": {
+"10.0.0.2": [
+{"name": "http", "port": 3000, "protocol": "tcp", "version": "1.0"},
+{"name": "ssh", "port": 22, "protocol": "tcp", "version": "7.2"}
+],
+"10.0.0.3": [
+{"name": "http", "port": 80, "protocol": "tcp", "version": "0.9"},
+{"name": "mysql", "port": 3306, "protocol": "tcp", "version": "5.7"}
+]
+},
+"web_endpoints": [
+{"host": "10.0.0.2", "path": "/", "method": "GET", "title": "Juice Shop Home"},
+{"host": "10.0.0.2", "path": "/search", "method": "GET", "title": "Search"},
+{"host": "10.0.0.3", "path": "/login", "method": "POST", "title": "DVWA Login"},
+{"host": "10.0.0.3", "path": "/vulnerabilities/sqli/", "method": "GET", "title": "DVWA SQLi"}
+],
+"accounts": {
+"10.0.0.3": [
+{"service": "mysql", "username": "root", "password": "password", "from_check_creds": true}
+]
+},
+"telemetry_confidence": 0.95
+}

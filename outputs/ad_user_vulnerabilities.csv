@@ -1,0 +1,9 @@
+User,Reason
+CN=Dan Jump,Non-privileged manages privileged (possible escalation)
+CN=Kelly Weadock,Non-privileged manages privileged (possible escalation)
+CN=Christa Geller,Non-privileged manages privileged (possible escalation)
+CN=Molly Clark,Non-privileged manages privileged (possible escalation)
+CN=Adam Barr,Non-privileged manages privileged (possible escalation)
+CN=Dan Park,Non-privileged manages privileged (possible escalation)
+CN=Jeff Hay,Non-privileged manages privileged (possible escalation)
+CN=Frank Martinez,Non-privileged manages privileged (possible escalation)
