@@ -1,0 +1,343 @@
+#!/usr/bin/env python3
+"""
+plot_ad_attack_path.py
+
+Generate a publication-quality (IEEE-style) AD attack-path graph and node-ranking CSV
+from sanitized BloodHound/CSV artifacts and harness execution traces.
+
+Usage (example):
+  python3 tools/plot_ad_attack_path.py \
+    --reports-dir reports \
+    --harness-results results/ad_runs/run_20251023T235801Z \
+    --out ./outputs/ad_attack_path.png \
+    --summary ./outputs/ad_attack_path_summary.csv \
+    --format png
+
+Requirements (latest names, put into requirements.txt):
+  networkx
+  matplotlib
+  pandas
+  numpy
+
+Design notes:
+ - Builds a directed graph (nodes: users, groups, computers, services). Edges reflect
+   relationships from common BloodHound CSVs (DomainUsers.csv, DomainComputers.csv,
+   DomainGroups.csv, Relationships-*.csv, Owned-Objects, etc.) plus optional run traces.
+ - Node size = degree * (1 + betweenness centrality) to emphasize chokepoints.
+ - Node color by type. Edge width by "priority" if available.
+ - Exports high-resolution PNG/PDF suitable for IEEE figures.
+ - Saves a CSV summary with node, type, degree, betweenness, pagerank ranking.
+"""
+from __future__ import annotations
+import argparse
+import csv
+import json
+import math
+import os
+from pathlib import Path
+from typing import Dict, List, Tuple
+
+import matplotlib
+import matplotlib.pyplot as plt
+import networkx as nx
+import numpy as np
+import pandas as pd
+
+# ---------- Helpers to read typical BloodHound CSVs ----------
+
+from pathlib import Path
+import pandas as pd
+import logging
+log = logging.getLogger("plot_ad_attack_path")
+
+def read_csv_if_exists(path):
+    p = Path(path)
+    if not p.exists():
+        return pd.DataFrame()
+    try:
+        return pd.read_csv(p, encoding="latin-1")
+    except Exception as e:
+        log.warning("Fast CSV parse failed for %s: %s -- retrying with python engine", p, e)
+    try:
+        return pd.read_csv(p, encoding="latin-1", engine="python", on_bad_lines="warn")
+    except TypeError:
+        try:
+            return pd.read_csv(p, encoding="latin-1", engine="python")
+        except Exception as e:
+            log.warning("Python-engine CSV parse failed for %s: %s", p, e)
+    try:
+        with p.open("r", encoding="latin-1", errors="ignore") as fh:
+            lines = [ln.rstrip("\\n") for ln in fh if ln.strip()]
+        if not lines:
+            return pd.DataFrame()
+        return pd.DataFrame({"raw_line": lines})
+    except Exception as e:
+        log.error("Failed to read file %s even as raw lines: %s", p, e)
+        return pd.DataFrame()
+def add_edge_safe(G: nx.DiGraph, a: str, b: str, **kw):
+    if a == "" or b == "":
+        return
+    if not G.has_node(a):
+        G.add_node(a)
+    if not G.has_node(b):
+        G.add_node(b)
+    # allow multiple edges by aggregating weight
+    w = kw.pop("weight", 1.0)
+    if G.has_edge(a, b):
+        G[a][b]["weight"] = G[a][b].get("weight", 1.0) + w
+    else:
+        G.add_edge(a, b, weight=w, **kw)
+
+# ---------- Graph construction ----------
+def build_ad_graph(reports_dir: Path, harness_results: Path | None = None) -> nx.DiGraph:
+    G = nx.DiGraph()
+
+    # Load common BloodHound CSVs (best-effort parsing)
+    # 1) DomainUsers.csv -> user nodes
+    users_df = read_csv_if_exists(reports_dir / "DomainUsers.csv")
+    if not users_df.empty:
+        for _, r in users_df.iterrows():
+            name = str(r.get("Name") or r.get("name") or r.get("UserPrincipalName") or r.get("sAMAccountName") or "").strip()
+            if name:
+                G.add_node(name, type="user")
+
+    # 2) DomainComputers.csv -> computer nodes
+    comps_df = read_csv_if_exists(reports_dir / "DomainComputers.csv")
+    if not comps_df.empty:
+        for _, r in comps_df.iterrows():
+            name = str(r.get("Name") or r.get("name") or r.get("computerName") or "").strip()
+            if name:
+                G.add_node(name, type="computer")
+
+    # 3) DomainGroups.csv -> group nodes
+    groups_df = read_csv_if_exists(reports_dir / "DomainGroups.csv")
+    if not groups_df.empty:
+        for _, r in groups_df.iterrows():
+            name = str(r.get("Name") or r.get("name") or "").strip()
+            if name:
+                G.add_node(name, type="group")
+
+    # 4) Relationships: Users -> Groups (MembersOf), Computers -> Groups (LocalAdmin)
+    # BloodHound produces various csvs with different names. Try multiple fallbacks.
+    rel_files = [
+        "Relationships-Users.csv", "Relationships-Users.html.csv", "Relationships-Users.html",
+        "Users-UserMembership.csv", "GroupMembers.csv", "Members.csv"
+    ]
+    found = False
+    for fn in rel_files:
+        p = reports_dir / fn
+        if p.exists():
+            df = read_csv_if_exists(p)
+            if df.empty:
+                continue
+            # attempt to find columns that indicate source/target
+            col_names = [c.lower() for c in df.columns]
+            # try common columns
+            if "member" in col_names and "group" in col_names:
+                for _, r in df.iterrows():
+                    add_edge_safe(G, str(r.get("Member") or r.get("member")), str(r.get("Group") or r.get("group")), relation="member_of")
+                found = True
+                break
+            # fallback assume first two columns are edge pairs
+            for _, r in df.iterrows():
+                a = str(r.iloc[0]) if len(r) > 0 else ""
+                b = str(r.iloc[1]) if len(r) > 1 else ""
+                if a and b:
+                    add_edge_safe(G, a, b, relation="relation")
+            found = True
+            break
+
+    # 5) Local admin relationships (LocalAdmin enumeration)
+    local_admin_files = ["LocalAdmin_Computers_.csv", "Computers_LocalAdminEnumeration.csv", "LocalAdmins_Computers.html.csv"]
+    for fn in local_admin_files:
+        p = reports_dir / fn
+        if p.exists():
+            df = read_csv_if_exists(p)
+            for _, r in df.iterrows():
+                # try to find computer and user
+                cols = [c for c in df.columns]
+                # heuristics:
+                comp = r.get("ComputerName") or r.get("Computer") or r.get("Name") or r.get(cols[0])
+                user = r.get("LocalAdmin") or r.get("Admin") or r.get(cols[-1])
+                add_edge_safe(G, str(user), str(comp), relation="local_admin")
+            break
+
+    # 6) Kerberoastable / SPN info (Kerberoastable_Users.html)
+    kr = read_csv_if_exists(reports_dir / "Kerberoastable_Users.html.csv")
+    if not kr.empty:
+        for _, r in kr.iterrows():
+            user = str(r.get("Name") or r.get("name") or r.get("UserPrincipalName") or "").strip()
+            add_edge_safe(G, user, user + " [Kerberoastable]", relation="kerberoast_flag")
+            G.add_node(user + " [Kerberoastable]", type="flag")
+
+    # 7) Owned-Objects / Owned-Users
+    owned_files = ["Owned-Objects.html.csv", "Owned-Objects.csv"]
+    for fn in owned_files:
+        p = reports_dir / fn
+        if p.exists():
+            df = read_csv_if_exists(p)
+            for _, r in df.iterrows():
+                src = r.get("Object") or r.get("ObjectName") or r.get("Owner") or r.get(df.columns[0])
+                tgt = r.get("OwnedBy") or r.get("Owner") or (r.get(df.columns[1]) if len(df.columns) > 1 else None)
+                if src and tgt:
+                    add_edge_safe(G, str(tgt), str(src), relation="owns")
+
+    # 8) Incorporate harness exec_trace if present (to show compromise steps)
+    if harness_results:
+        exec_trace_path = Path(harness_results) / "exec_trace.json"
+        if exec_trace_path.exists():
+            try:
+                exec_trace = json.loads(exec_trace_path.read_text(encoding="utf-8"))
+                # exec_trace is list of step results per harness format
+                for step in exec_trace:
+                    action = step.get("action") or step.get("result") or ""
+                    tgt = step.get("target") or {}
+                    target_name = None
+                    if isinstance(tgt, dict):
+                        target_name = tgt.get("host") or tgt.get("endpoint") or tgt.get("service")
+                    elif isinstance(tgt, str):
+                        target_name = tgt
+                    # create a small edge from a pseudo 'agent' node to target show action
+                    actor = "AUTOPENT_AGENT"
+                    if target_name:
+                        add_edge_safe(G, actor, str(target_name), relation=str(action), weight=0.5)
+                        G.nodes[actor]["type"] = "agent"
+            except Exception:
+                pass
+
+    # Final sweep: assign default types to untyped nodes by heuristics
+    for n in list(G.nodes()):
+        t = G.nodes[n].get("type")
+        if t:
+            continue
+        if "@" in n or n.lower().startswith("domain") or n.lower().endswith("$"):
+            G.nodes[n]["type"] = "user"
+        elif any(ch.isdigit() for ch in n) and "." in n:
+            G.nodes[n]["type"] = "computer"
+        else:
+            # fallback
+            G.nodes[n]["type"] = "unknown"
+    return G
+
+# ---------- Metrics & plotting ----------
+def compute_node_metrics(G: nx.DiGraph) -> pd.DataFrame:
+    # Convert to undirected for some centrality metrics that make more sense
+    Gu = G.to_undirected(reciprocal=False)
+    bet = nx.betweenness_centrality(Gu, weight="weight")
+    pr = nx.pagerank(G, weight="weight") if G.number_of_nodes() > 0 else {}
+    deg = dict(Gu.degree(weight="weight"))
+    rows = []
+    for n in G.nodes():
+        rows.append({
+            "node": n,
+            "type": G.nodes[n].get("type", "unknown"),
+            "degree": deg.get(n, 0),
+            "betweenness": bet.get(n, 0.0),
+            "pagerank": pr.get(n, 0.0)
+        })
+    df = pd.DataFrame(rows).sort_values(by=["pagerank", "betweenness"], ascending=False)
+    return df
+
+def draw_graph(G: nx.DiGraph, out_path: Path, image_format: str = "png", title: str = "AD attack-path graph"):
+    # Set IEEE-friendly style
+    matplotlib.rcParams.update({
+        "figure.dpi": 300,
+        "font.size": 8,
+        "axes.titlesize": 10,
+        "axes.labelsize": 8
+    })
+
+    # Compute metrics
+    metrics = compute_node_metrics(G)
+    # node sizes: map degree + betweenness to a visual size range
+    deg_vals = metrics["degree"].values if not metrics.empty else []
+    bet_vals = metrics["betweenness"].values if not metrics.empty else []
+    sizes = []
+    for d, b in zip(deg_vals, bet_vals):
+        # base area scaling
+        s = 100 + (d * 60) + (b * 2000)
+        sizes.append(s)
+
+    # color map by type
+    type_to_color = {
+        "user": "#1f77b4",
+        "computer": "#ff7f0e",
+        "group": "#2ca02c",
+        "agent": "#d62728",
+        "flag": "#9467bd",
+        "unknown": "#7f7f7f"
+    }
+    node_colors = [type_to_color.get(G.nodes[n].get("type", "unknown"), "#7f7f7f") for n in metrics["node"]]
+
+    # layout: spring + seed for determinism
+    pos = nx.spring_layout(G, k=0.8, iterations=200, seed=42)
+
+    fig, ax = plt.subplots(figsize=(10, 8))
+    ax.set_title(title)
+
+    # draw edges with widths scaled by weight
+    edges = G.edges(data=True)
+    if edges:
+        weights = [max(0.5, float(e[2].get("weight", 1.0))) for e in edges]
+        # normalize widths
+        maxw = max(weights) if weights else 1.0
+        widths = [0.5 + (2.5 * (w / maxw)) for w in weights]
+        nx.draw_networkx_edges(G, pos, ax=ax, width=widths, alpha=0.6, arrowsize=8)
+    # draw nodes
+    nx.draw_networkx_nodes(G, pos, nodelist=metrics["node"].tolist(), node_size=sizes, node_color=node_colors, linewidths=0.4, edgecolors="k", alpha=0.95)
+    # labels: for publication remove clutter or show only top-K
+    # show labels for top N by pagerank to keep figure clean; other nodes can be unlabeled
+    N_LABELS = 25
+    top_nodes = metrics.head(N_LABELS)["node"].tolist()
+    labels = {n: (n if n in top_nodes else "") for n in metrics["node"]}
+    nx.draw_networkx_labels(G, pos, labels=labels, font_size=6)
+
+    # legend (manual)
+    from matplotlib.patches import Patch
+    legend_patches = [Patch(facecolor=c, label=t) for t, c in type_to_color.items()]
+    ax.legend(handles=legend_patches, loc="lower left", fontsize=7)
+
+    ax.axis("off")
+    ensure_parent(out_path)
+    plt.tight_layout()
+    fig.savefig(out_path, format=image_format, dpi=300, bbox_inches="tight")
+    plt.close(fig)
+
+def ensure_parent(p: Path):
+    p.parent.mkdir(parents=True, exist_ok=True)
+
+# ---------- CLI ----------
+def parse_args():
+    p = argparse.ArgumentParser(description="Plot AD attack-path graph from BloodHound artifacts and harness traces")
+    p.add_argument("--reports-dir", type=Path, required=True, help="Directory containing BloodHound CSV reports")
+    p.add_argument("--harness-results", type=Path, default=None, help="Harness run directory (optional) with exec_trace.json")
+    p.add_argument("--out", type=Path, required=True, help="Output image path (png/pdf/svg)")
+    p.add_argument("--summary", type=Path, required=True, help="CSV summary output (node metrics)")
+    p.add_argument("--format", choices=["png", "pdf", "svg"], default="png", help="Image format")
+    return p.parse_args()
+
+def main():
+    args = parse_args()
+    reports_dir = Path(args.reports_dir)
+    harness_dir = Path(args.harness_results) if args.harness_results else None
+    out_path = Path(args.out)
+    summary_path = Path(args.summary)
+
+    G = build_ad_graph(reports_dir, harness_results=harness_dir)
+    if G.number_of_nodes() == 0:
+        print("No nodes found in graph (check reports directory). Exiting.")
+        return 2
+
+    # compute metrics and write summary CSV
+    df = compute_node_metrics(G)
+    ensure_parent(summary_path)
+    df.to_csv(summary_path, index=False)
+    print(f"[+] Wrote node summary CSV to {summary_path} (rows={len(df)})")
+
+    # draw graph
+    draw_graph(G, out_path, image_format=args.format)
+    print(f"[+] Wrote graph image to {out_path} (nodes={G.number_of_nodes()} edges={G.number_of_edges()})")
+    return 0
+
+if __name__ == "__main__":
+    raise SystemExit(main())
