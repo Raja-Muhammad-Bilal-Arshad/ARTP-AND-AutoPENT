@@ -1,0 +1,9 @@
+[
+  {
+    "step_id": 1,
+    "action": "crawl",
+    "confidence": 0.9,
+    "timestamp": "2025-10-17T12:09:36Z",
+    "result": "info_gathered"
+  }
+]
