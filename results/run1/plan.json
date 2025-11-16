@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "generated_utc": "2025-10-22T01:55:16.685251Z",
+    "agent": "rule_based",
+    "seed": 42,
+    "mode": "rule"
+  },
+  "plan": [
+    {
+      "action": "enumerate",
+      "target": {
+        "host": "10.0.0.2"
+      },
+      "params": {},
+      "confidence": 0.95,
+      "rationale": "Deterministic recon for host 10.0.0.2"
+    },
+    {
+      "action": "enumerate",
+      "target": {
+        "host": "10.0.0.3"
+      },
+      "params": {},
+      "confidence": 0.95,
+      "rationale": "Deterministic recon for host 10.0.0.3"
+    },
+    {
+      "action": "enumerate",
+      "target": {
+        "host": "10.0.0.3",
+        "service": "ldap",
+        "port": 389
+      },
+      "params": {},
+      "confidence": 0.9,
+      "rationale": "Enumerate ldap on 10.0.0.3:389"
+    },
+    {
+      "action": "enumerate",
+      "target": {
+        "host": "10.0.0.3",
+        "service": "msrpc",
+        "port": 135
+      },
+      "params": {},
+      "confidence": 0.9,
+      "rationale": "Enumerate msrpc on 10.0.0.3:135"
+    }
+  ]
+}

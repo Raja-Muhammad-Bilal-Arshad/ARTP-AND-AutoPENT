@@ -1,0 +1,26 @@
+{
+  "verifier_checks": [
+    {
+      "step_id": null,
+      "status": "ok",
+      "issues": []
+    },
+    {
+      "step_id": null,
+      "status": "ok",
+      "issues": []
+    },
+    {
+      "step_id": null,
+      "status": "ok",
+      "issues": []
+    },
+    {
+      "step_id": null,
+      "status": "ok",
+      "issues": []
+    }
+  ],
+  "final_decision": "approved",
+  "timestamp": "2025-10-22T14:21:59Z"
+}

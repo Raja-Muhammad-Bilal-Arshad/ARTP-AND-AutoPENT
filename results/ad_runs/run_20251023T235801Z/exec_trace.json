@@ -1,0 +1,3544 @@
+[
+  {
+    "step_id": "step-1",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-2",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-3",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-4",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-5",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-6",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-7",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-8",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-9",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-10",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-11",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-12",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-13",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-14",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-15",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-16",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-17",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-18",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-19",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-20",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-21",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-22",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-23",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-24",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-25",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-26",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-27",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-28",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-29",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-30",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-31",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-32",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-33",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-34",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-35",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-36",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-37",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-38",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-39",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-40",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-41",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-42",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-43",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-44",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-45",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-46",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-47",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-48",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-49",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-50",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-51",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-52",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-53",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-54",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-55",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-56",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-57",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-58",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-59",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-60",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-61",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-62",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-63",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-64",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-65",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-66",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-67",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-68",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-69",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-70",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-71",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-72",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-73",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-74",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-75",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-76",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-77",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-78",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-79",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-80",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-81",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-82",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-83",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-84",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-85",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-86",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-87",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-88",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-89",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-90",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-91",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-92",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-93",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-94",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-95",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-96",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-97",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-98",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-99",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-100",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-101",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-102",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-103",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-104",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-105",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-106",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-107",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-108",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-109",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-110",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-111",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-112",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-113",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-114",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-115",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-116",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-117",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-118",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-119",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-120",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-121",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-122",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-123",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-124",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-125",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-126",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-127",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-128",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-129",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-130",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-131",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-132",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-133",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-134",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-135",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-136",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-137",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-138",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-139",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-140",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-141",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-142",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-143",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-144",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-145",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-146",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-147",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-148",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-149",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-150",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-151",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-152",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-153",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-154",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-155",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-156",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-157",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-158",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-159",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-160",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-161",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-162",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-163",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-164",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-165",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-166",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-167",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-168",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-169",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-170",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-171",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-172",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-173",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-174",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-175",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-176",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-177",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-178",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-179",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-180",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-181",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-182",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-183",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-184",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-185",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-186",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-187",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-188",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-189",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-190",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-191",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-192",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-193",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-194",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-195",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-196",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-197",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-198",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-199",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-200",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-201",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-202",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-203",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-204",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-205",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-206",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-207",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-208",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-209",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-210",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-211",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-212",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-213",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-214",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-215",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-216",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-217",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-218",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-219",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-220",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-221",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-222",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-223",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-224",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-225",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-226",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-227",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-228",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-229",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-230",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-231",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-232",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-233",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-234",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-235",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-236",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-237",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-238",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-239",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-240",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-241",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-242",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-243",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-244",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-245",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-246",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-247",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-248",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-249",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-250",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-251",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-252",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-253",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-254",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-255",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-256",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-257",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-258",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-259",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-260",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-261",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-262",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-263",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-264",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-265",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-266",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-267",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-268",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-269",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-270",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-271",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-272",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-273",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-274",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-275",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-276",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-277",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-278",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-279",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-280",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-281",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-282",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-283",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-284",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-285",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-286",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-287",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-288",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-289",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-290",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-291",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-292",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-293",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-294",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-295",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-296",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-297",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-298",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-299",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-300",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-301",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-302",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-303",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-304",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-305",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-306",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-307",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-308",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-309",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-310",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-311",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-312",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-313",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-314",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-315",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-316",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-317",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-318",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-319",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-320",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-321",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-322",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-323",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-324",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-325",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-326",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-327",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-328",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-329",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-330",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-331",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-332",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-333",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-334",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-335",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-336",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-337",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-338",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-339",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-340",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-341",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-342",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-343",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-344",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-345",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-346",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-347",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-348",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-349",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-350",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-351",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-352",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-353",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-354",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-355",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-356",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-357",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-358",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-359",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-360",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-361",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-362",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-363",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-364",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-365",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-366",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-367",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-368",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-369",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-370",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-371",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-372",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-373",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-374",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-375",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-376",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-377",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-378",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-379",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-380",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-381",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-382",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-383",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-384",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-385",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-386",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-387",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-388",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-389",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-390",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-391",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-392",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-393",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-394",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-395",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-396",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-397",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-398",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-399",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-400",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-401",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-402",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-403",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-404",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-405",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-406",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-407",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-408",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-409",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-410",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-411",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-412",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-413",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-414",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-415",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-416",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-417",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-418",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-419",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-420",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-421",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-422",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-423",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-424",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-425",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-426",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-427",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-428",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-429",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-430",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-431",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-432",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-433",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-434",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-435",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-436",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-437",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-438",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-439",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-440",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-441",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-442",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-443",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-444",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-445",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-446",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-447",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-448",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-449",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-450",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-451",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-452",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-453",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-454",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-455",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-456",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-457",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-458",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-459",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-460",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-461",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-462",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-463",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-464",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-465",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-466",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-467",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-468",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-469",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-470",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-471",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-472",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-473",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-474",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-475",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-476",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-477",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-478",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-479",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-480",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-481",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-482",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-483",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-484",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-485",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-486",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-487",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-488",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-489",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-490",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-491",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-492",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-493",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-494",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-495",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-496",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-497",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-498",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-499",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-500",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-501",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-502",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-503",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-504",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-505",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  },
+  {
+    "step_id": "step-506",
+    "action": "investigate_actor_simulated",
+    "confidence": 0.5,
+    "timestamp": "2025-10-23T23:58:01Z",
+    "result": "noop"
+  }
+]
